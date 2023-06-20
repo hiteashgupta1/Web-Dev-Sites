@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script language="JavaScript">
+	function showInput() {
+		document.getElementById('display').innerHTML = document.getElementById("user_input").value;
+	}
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hotel Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+<body>
+	<fieldset style="text-align: center;">
+		<h1> Hotel Registration Form</h1>
+
+	<h3> Customer Info</h3>
+	<form class="fo-1">
+		<label>Customer Name</label>
+		<input type="text" name="Customer name" size="15" id="user_input"> <br>
+		<br>
+		<label>Check in Date</label>
+		<input type="Date" name="Date" size="10" id="user_input"> <br>
+		<br>
+		<label>Total No of Days</label>
+		<input type="" name="Enter No of Days" size="10" id="user_input"> <br>
+		<br>
+		<label>Total No of Persons</label>
+		<input type="" name="" id="user_input">
+		<br>
+	<h3>Select Room Type</h3>
+		<img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&w=1000&q=80" alt="Delux Room" width="500px" height="400px" ><br>
+		<label>Delux Room</label>
+		<input type="radio" name="" id="user_input">
+		<p> Delux Room Price: 2500/-</p><br>
+		<img src="https://www.usatoday.com/gcdn/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg" alt="Suite Room" width="500px" height="400px"><br>
+		<label>Suite Room</label>
+		<input type="radio" name="" id="user_input">
+		<p> Suite Room Price: 4000/-</p>
+
+		<h3>Select Amenities</h3>
+
+		<img src="https://static.toiimg.com/thumb/msid-82197799,width-1280,resizemode-4/82197799.jpg" alt="A/C" width="350px" height="250px"><br>
+		<label>A/C</label>
+		<input type="checkbox" name="" id="user_input">
+		<p>Cost: 1000/-</p><br>
+		<img src="https://5.imimg.com/data5/SELLER/Default/2023/4/299846048/PC/MM/HE/25465274/6-door-industrial-storage-locker-500x500.png" alt="Locker" width="350px" height="250px"><br>
+		<label>Locker</label>
+		<input type="checkbox" name="" id="user_input">
+		<p> Cost: 300/-</p>
+		<h3>Advance Amount</h3>
+		<label>Advance Amount</label>
+		<input type="" name="" id="user_input">
+	</form>
+	<br>
+		<input type="submit" value="Register" style="font-size: 20px; background color: lightblue;">
+
+	
+	<p><span id="display"></span></p>
+	</fieldset>
+	
+
+</body>
+
+</html>
